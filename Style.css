@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+html{
+    height:100%;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    width:100%;
+    height:100%;
+    background: url(images/pattern-background-desktop.svg) no-repeat center center;
+    background-color:hsl(225, 100%, 94%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height:100%;
+
+}
+
+p{
+    color:grey;
+    font-weight: bold;
+}
+
+#corps{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:80%;
+    margin: 2%;
+}
+#carte{
+    background: white;
+    height:auto;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+button{
+    background:none;
+    border:none;
+    cursor: pointer;
+}
+
+.boutonpayer{
+    border-radius: 10px;
+    background-color:hsl(245, 75%, 52%);
+    color:white;
+    font-weight: bold;
+    padding: 5hv;
+    width:80%;
+    margin-top: 10%;
+    padding: 2% 0 2% 0;
+}
+
+.boutonannuler{
+    font-weight: bold;
+    color:grey;
+}
+
+img{
+    border-radius: 10px 10px 0px 0px; 
+}
+
+.attribution{
+    position: absolute;
+    bottom: 0;
+}
+
+#infosProduit{
+    margin-left:10%;
+    border-radius:10px;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    margin-top:5%;
+    width:80%;
+    background: hsl(225, 100%, 98%);
+    padding: 5% 0 5% 0;
+}
+
+#Plan{
+    display: flex;
+    flex-direction:column;
+    padding-left:3%;
+}
+
+#adapt{
+    padding-top:2%;
+    font-weight: bold;
+    color:hsl(245, 75%, 52%);
+}
+
+.boutonpayer:hover, #adapt:hover{
+    filter:brightness(190%);
+    text-decoration: none;
+}
+
+.boutonannuler:hover{
+    color:black; 
+}
+
+#Annuler{
+    color:black;
+    margin-top:3%;
+}
+
+#group{
+    display: flex;
+    flex-direction: row;
+}
